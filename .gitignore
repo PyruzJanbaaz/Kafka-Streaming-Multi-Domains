@@ -1,0 +1,5 @@
+/Domain-Crawler/target/
+/Domain-Processor/target/
+/Domain-Service/target/
+/Kafka-Streaming-Multi-Domains.iml
+/.idea/
