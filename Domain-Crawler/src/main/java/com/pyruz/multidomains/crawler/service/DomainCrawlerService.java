@@ -1,5 +1,7 @@
-package com.pyruz.multidomains.crawler;
+package com.pyruz.multidomains.crawler.service;
 
+import com.pyruz.multidomains.crawler.model.Domains;
+import com.pyruz.multidomains.crawler.model.Domain;
 import org.springframework.http.MediaType;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;

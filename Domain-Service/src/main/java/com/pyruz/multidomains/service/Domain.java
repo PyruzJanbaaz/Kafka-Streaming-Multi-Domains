@@ -1,4 +1,4 @@
-package com.pyruz.multidomains.crawler;
+package com.pyruz.multidomains.service;
 
 import java.util.Objects;
 

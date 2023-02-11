@@ -1,4 +1,4 @@
-package com.pyruz.multidomains.crawler;
+package com.pyruz.multidomains.crawler.model;
 
 import java.util.List;
 import java.util.Objects;
