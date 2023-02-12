@@ -1,4 +1,4 @@
-package com.pyruz.multidomains.processor;
+package com.pyruz.multidomains.processor.model;
 
 import java.util.Objects;
 

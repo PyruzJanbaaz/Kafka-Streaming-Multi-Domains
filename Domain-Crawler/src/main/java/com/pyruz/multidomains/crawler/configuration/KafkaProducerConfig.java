@@ -1,6 +1,7 @@
 package com.pyruz.multidomains.crawler.configuration;
 
 import com.pyruz.multidomains.crawler.model.Domain;
+import org.springframework.kafka.support.serializer.JsonDeserializer;
 import org.springframework.kafka.support.serializer.JsonSerializer;
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.common.serialization.StringSerializer;
@@ -26,6 +27,7 @@ public class KafkaProducerConfig {
         configs.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, "localhost:9091");
         configs.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, StringSerializer.class);
         configs.put(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, JsonSerializer.class);
+        configs.put(JsonDeserializer.TRUSTED_PACKAGES, "*");
         return new DefaultKafkaProducerFactory<>(configs);
     }
 }

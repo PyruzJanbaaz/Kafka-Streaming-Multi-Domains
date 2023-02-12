@@ -1,5 +1,6 @@
-package com.pyruz.multidomains.processor;
+package com.pyruz.multidomains.processor.processor;
 
+import com.pyruz.multidomains.processor.model.Domain;
 import org.apache.kafka.streams.kstream.KStream;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

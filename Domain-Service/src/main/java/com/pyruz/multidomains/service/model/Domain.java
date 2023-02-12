@@ -1,4 +1,4 @@
-package com.pyruz.multidomains.service;
+package com.pyruz.multidomains.service.model;
 
 import java.util.Objects;
 

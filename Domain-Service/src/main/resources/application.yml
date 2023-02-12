@@ -1,16 +1,13 @@
-server:
-  port: 3003
-
 spring:
   cloud:
     stream:
       function:
         bindings:
-          domainProcessor-in-0:
-            destination: web-domains
+          domainService-in-0:
+            destination: active.web-domains
       kafka:
         bindings:
-          domainProcessor-in-0:
+          domainService-in-0:
             consumer:
               configuration:
                 value:
@@ -19,3 +16,6 @@ spring:
           brokers:
             - localhost:9091
             - localhost:9092
+            - localhost:9093
+
+
